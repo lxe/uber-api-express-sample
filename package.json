@@ -1,0 +1,27 @@
+{
+  "name": "uber-api-express-sample",
+  "version": "1.0.0",
+  "description": "Sample basic web app skeleton utilizing express and the Uber API.",
+  "author": "Aleksey Smolenchuk <lxe@lxe.co>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lxe/uber-api-express-sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lxe/uber-api-express-sample/issues"
+  },
+  "homepage": "https://github.com/lxe/uber-api-express-sample",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-session": "^1.0.2",
+    "express": "^4.9.5",
+    "morgan": "^1.3.2",
+    "passport": "^0.2.1",
+    "passport-oauth": "^1.0.0",
+    "request": "^2.44.0"
+  }
+}
